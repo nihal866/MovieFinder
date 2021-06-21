@@ -1,0 +1,93 @@
+body{
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+	background: url("img/1.jpeg");
+	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-size: 1500px;
+}
+
+.moody{
+	font-family: 'Lobster', cursive;
+	color: #c9c3c9;
+	font-size: 60px;
+}
+
+.box-container{
+	margin: auto;
+	margin-top: 20%;
+	position: relative;
+	width: 300px;
+	height: 42px;
+	padding: 0px 10px;
+	border-radius: 50px; 
+}
+
+.element-container{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.search{
+	height: 100%;
+	width: 100%;
+	padding: 0px 5px;
+	border-radius: 50px;
+	font-size: 15px;
+	font-weight: 500;
+
+}
+
+.search:focus{
+	outline: none;
+}
+
+.material-icons{
+	margin-left: 20px;
+	font-size: 26;
+	border-radius: 50px;
+	cursor: pointer;
+	background: radial-gradient(white, transparent);
+	margin-top: 5px;
+	transition: transform .2s;
+}
+
+.material-icons:hover{
+	transform: scale(1.5);
+}
+
+/*js created elements styled from here*/
+
+#poster{
+	width: 80%;
+	height: 60%;
+    border-radius: 20px;
+    transition: transform .6s;
+}
+
+#poster:hover{
+	transform: scale(1.2);
+}
+
+.info{
+	width: 80%;
+	height: 30%;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 25px;
+	color: white;
+}
+
+.bg-div{
+	margin: auto;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+.small-div{
+	height: 450px;
+	width: 300px;
+	display: inline-block;
+	margin: auto;
+	padding: 30px 10px 10px;
+}
